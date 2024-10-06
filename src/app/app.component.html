@@ -1,0 +1,6 @@
+<h1>Liste des médecins</h1>
+<div class="doctors">
+  @for (medecin of medecins; track $index) {
+    <app-doctor [doctor]="medecin"></app-doctor>
+  }
+</div>

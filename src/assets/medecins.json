@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nom": "Doe",
+    "prenom": "John",
+    "specialite": "Generaliste",
+    "adresse": "1 rue de la paix",
+    "telephone": "0102030405",
+    "email": ""
+  },
+  {
+    "id": 2,
+    "nom": "Doe",
+    "prenom": "Jane",
+    "specialite": "Dentiste",
+    "adresse": "2 rue de la paix",
+    "telephone": "0102030406",
+    "email": ""
+  }
+]
