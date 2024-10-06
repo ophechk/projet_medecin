@@ -3,11 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { Medecin } from './types/medecin';
 import { DoctorsService } from './services/doctors.service';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { DoctorComponent } from './doctor/doctor.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, DoctorComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
